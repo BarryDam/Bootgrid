@@ -54,7 +54,7 @@
 
 			// cut the array
 			if ($intTotal > $getRowCount) {
-				$intStart = 1 + ($getCurrent*$getRowCount) - $getRowCount;
+				$intStart = ($getCurrent*$getRowCount) - $getRowCount;
 				$arrRows  = array_slice($arrRows, $intStart,	$getRowCount);
 			}
 
