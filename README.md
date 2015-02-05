@@ -26,6 +26,9 @@ $o = new bdBootgrid($array, array('sender'));
 $a = $o->fetchByRequest();
 
 echo json_encode($a);
-
-
 ```
+
+##Result##
+```json
+{"current":1,"rowCount":10,"rows":[{"id":2,"sender":"asdf@test.nl"},{"id":3,"sender":"barsdfa23ry@test.nl"},{"id":4,"sender":"441@test.nl"},{"id":5,"sender":"adfdasf@test.nl"},{"id":6,"sender":"baasdfrry@test.nl"},{"id":7,"sender":"wfasd@test.nl"},{"id":8,"sender":"fdds@test.nl"},{"id":9,"sender":"assdd@test.nl"},{"id":10,"sender":"fff@test.nl"},{"id":11,"sender":"ffasdf@test.nl"}],"total":11}
+````
